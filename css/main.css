@@ -1,0 +1,54 @@
+
+
+html {
+  cursor:none;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  
+}
+
+
+#pretty-game {
+  display: flex;
+  background-image: url("../img/Fondos/fondo.jpg");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 860px;
+
+}
+
+.hide {
+  display: none;
+}
+
+#start {
+  position: absolute;
+  left: 565px;
+  bottom: 205px;
+  background-color:rgba(0, 0, 0, 0);
+  outline: none;  
+
+ 
+}
+
+
+.imgButton {
+  height: 270px;
+  width: 270px;
+}
+
+.storkOff {
+  display: none;
+  
+}
+
+.storkOn {
+  position: absolute;
+  top: 100px;
+  
+}
+
