@@ -13,7 +13,7 @@ function GameOver(game) {
 
 GameOver.prototype.draw = function() {
   this.game.ctx.drawImage(this.img, this.x, this.y, this.game.canvas.width, this.game.canvas.height);
-  /* Aqui pongo la segunda imagen a la izquierda con un -this.game.canvas.width */
+ 
   this.game.ctx.drawImage(this.img, this.x - this.game.canvas.width, this.y, this.game.canvas.width, this.game.canvas.height);
 };
 

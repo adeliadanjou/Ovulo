@@ -77,6 +77,7 @@ Game.prototype.start = function () {
   }.bind(this), 1000 / this.fps);
 };
 
+
 Game.prototype.clear = function () {
   this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 };
@@ -89,7 +90,7 @@ Game.prototype.draw = function () {
   this.player.draw();
  
 
-  // Aquí cambio de color según el Bonus:
+  // Aquí cambio de color el Bonus:
   this.pildora.isOnBonus ? this.player.drawBonusPill() : '';
 
 

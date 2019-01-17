@@ -31,7 +31,7 @@ Condom.prototype.colision = function () {
       condom.x + condom.width >= this.player.x && this.player.x + this.player.width >= condom.x &&
       (condom.y-80) + condom.height >= this.player.y && this.player.y + this.player.height >= condom.y
     ){
-      var audio = new Audio("sounds/Papi.mp4");
+      var audio = new Audio("sounds/Gemidorosa.mp3");
   audio.play();
       this.game.spermCounter+=100;
       this.game.condoms.splice(i,1)

@@ -8,8 +8,6 @@ function Ciguena(game) {
   this.x =0;
   this.y=0;
  
-
- 
 }
 
 Ciguena.prototype.draw = function() {
